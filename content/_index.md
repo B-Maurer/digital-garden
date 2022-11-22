@@ -10,9 +10,11 @@ The main reason for creating my digital garden, is to expirement and demonstrate
 
 ---
 
-The navigation menu is generated from the config.toml file at root of the site. With a quick copy and paste of the themes config file, found in themes/exampleSite/config.toml, you can get the navigation up and running. With some simple tweaks the menu can be customized to fit your needs.
+The navigation menu is generated from the config.yml file at root of the site. By using the themes config file, found in themes/exampleSite/config.toml as an example (I converted it to Yaml), you can get the navigation up and running. With some simple tweaks the menu can be customized to fit your needs. Along the way, I had some personal issues with the theme when trying to deploy the site to both GitHub Pages and Netlify. Because of those issues, I used parts of the theme in the sites layout were needed and did away with the digitalGarden theme in the themes folder.
 
-Make sure to check out [Blog](/blog) and [Whatever](/whatever) for examples of how content structure and layouts can be created to match the menu entries in the navigation bar.
+---
+
+Also be sure to check out [Blog](/blog) and [Whatever](/whatever) for examples of how content structure and layouts can be created to match the menu entries in the navigation bar.
 
 ---
 
