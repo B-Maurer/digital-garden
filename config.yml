@@ -1,6 +1,7 @@
 baseURL: /
 languageCode: en-us
 title: My Digital Garden
+theme: github.com/B-Maurer/digital-garden-hugo-theme
 
 googleAnalytics: UA-PROPERTY_ID
 
