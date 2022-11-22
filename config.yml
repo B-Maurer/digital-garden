@@ -1,0 +1,80 @@
+baseURL: /
+languageCode: en-us
+title: My Digital Garden
+
+googleAnalytics: 'UA-PROPERTY_ID'
+
+Params:
+  - description: 'My Digital Garden on the Internet'
+    images: ['/digital-garden-logo.png']
+    enableSearch: true
+
+# Convert to Yaml
+# [Params.newsletter]
+#   title = ""
+#   description = "A curated weekly digest once a week to your mailbox"
+#   path = "https://www.getrevue.co/profile/username/add_subscriber"
+
+# Menu/nav links
+menu:
+  main:
+    - name: 'Home'
+      url: '/'
+      weight: 10
+
+    - name: 'Content'
+      params:
+        header: true
+      weight: 20
+
+    - name: 'Blog'
+      url: '/blog'
+      weight: 30
+
+    - name: 'Whatever'
+      url: '/whatever'
+      weight: 40
+
+    - name: 'Portfolio'
+      url: '/portfolio'
+      weight: 50
+
+    - name: 'Documentation'
+      params:
+        header: true
+      weight: 60
+
+    - name: 'Articles'
+      url: '/articles'
+      weight: 70
+
+  # Social media accounts
+
+  social:
+    - name: 'Mastodon'
+      url: 'https://joinmastodon.org/'
+      weight: 1
+
+    - name: 'Twitter'
+      url: 'https://twitter.com'
+      weight: = 2
+
+    - name: 'GitHub'
+      url: 'https://github.com'
+      weight: 3
+
+    - name: 'Instagram'
+      url: 'https://instagram.com'
+      weight: 4
+
+    - name: 'Email'
+      url: 'mailto:user@example.org'
+      weight: 5
+
+# syntax highlight settings
+markup:
+  highlight:
+    style: dracula
+  goldmark:
+    renderer:
+      unsafe: true
