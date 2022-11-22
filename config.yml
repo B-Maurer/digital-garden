@@ -2,73 +2,70 @@ baseURL: /
 languageCode: en-us
 title: My Digital Garden
 
-googleAnalytics: 'UA-PROPERTY_ID'
+googleAnalytics: UA-PROPERTY_ID
 
 Params:
-  - description: 'My Digital Garden on the Internet'
-    images: ['/digital-garden-logo.png']
-    enableSearch: true
+  enableSearch: true
 
-# Convert to Yaml
-# [Params.newsletter]
-#   title = ""
-#   description = "A curated weekly digest once a week to your mailbox"
-#   path = "https://www.getrevue.co/profile/username/add_subscriber"
+  # newsletter:
+  #   title: ''
+  #   description: A curated weekly digest once a week to your mailbox
+  #   path: https://www.getrevue.co/profile/username/add_subscriber
 
 # Menu/nav links
 menu:
   main:
-    - name: 'Home'
-      url: '/'
+    - name: Home
+      url: /
       weight: 10
 
-    - name: 'Content'
+    - name: Content
       params:
         header: true
       weight: 20
 
-    - name: 'Blog'
-      url: '/blog'
+    - name: Blog
+      url: /blog
       weight: 30
 
-    - name: 'Whatever'
-      url: '/whatever'
+    - name: Whatever
+      url: /whatever
       weight: 40
 
-    - name: 'Portfolio'
-      url: '/portfolio'
+    - name: Portfolio
+      url: /portfolio
       weight: 50
 
-    - name: 'Documentation'
+    - name: Documentation
       params:
         header: true
       weight: 60
 
-    - name: 'Articles'
-      url: '/articles'
+    - name: Articles
+      url: /articles
       weight: 70
 
   # Social media accounts
 
   social:
-    - name: 'Mastodon'
-      url: 'https://joinmastodon.org/'
+    - name: Mastodon
+      url: https://joinmastodon.org/
       weight: 1
 
-    - name: 'Twitter'
-      url: 'https://twitter.com'
+    - name: Twitter
+      url: https://twitter.com
       weight: = 2
 
-    - name: 'GitHub'
-      url: 'https://github.com'
+    - name: GitHub
+      url: https://github.com
       weight: 3
 
-    - name: 'Instagram'
-      url: 'https://instagram.com'
+    - name: Instagram
+      url: https://instagram.com
       weight: 4
 
-    - name: 'Email'
-      url: 'mailto:user@example.org'
+    - name: Email
+      url: mailto:user@example.org
       weight: 5
 
 # syntax highlight settings
